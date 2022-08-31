@@ -10,12 +10,15 @@ export const NavBar = () => {
       </div>
 
       <header className="navbar">
+        
         {/* Logo */}
+
         {/* <img src={Icon} alt="tesla logo" className="w-[120px]" /> */}
         <h1 className="h-6 text-4xl">Tesla</h1>
 
         {/* Nav Links */}
-        <div>
+
+        <div className="hidden lg:block">
           <a href="#modelS" className="nav_link">
             Model S
           </a>
@@ -39,10 +42,10 @@ export const NavBar = () => {
         {/* Menu */}
 
         <div>
-          <a href="#shop" className="nav_link">
+          <a href="#shop" className="nav_link hidden lg:block">
             Shop
           </a>
-          <a href="#account" className="nav_link">
+          <a href="#account" className="nav_link hidden lg:block">
             Account
           </a>
           <a href="#menu" className="nav_link">
